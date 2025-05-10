@@ -43,7 +43,7 @@ deoldify_path = os.path.join(os.getcwd(), "DeOldify")
 sys.path.append(deoldify_path)
 
 try:
-    from deoldify.visualize import *
+    from DeOldify.deoldify.visualize import *
     print("Successfully imported DeOldify")
 except ImportError as e:
     print(f"Error importing DeOldify: {e}")
